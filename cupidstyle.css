@@ -1,0 +1,183 @@
+header,footer {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lovers Quarrel', cursive;
+    font-weight: bolder;
+    font-size: 150pt;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: url("cupidimg/hearts.gif") repeat;
+}
+
+#grid {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.w3-circle {
+    width: 100%;
+}
+
+.item1, .item2 {
+    
+  display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.divitem1,
+.divitem2 {
+    width: 55%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 30px;
+  
+}
+
+#divitemcenter {
+    width: 25%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divitemcenter1 {
+    
+     background: url('cupidimg/heart.png') no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.pbutton {
+    
+    font-size: 30pt;
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.pcttag{
+    
+   font-size: 40pt;
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0;
+}
+
+#divitemcenter p {
+   
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.divnombre1, .divedad1, .divnombre2, .divedad2 {
+    
+   height: 100px;
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.divnombre1, .divnombre2 {
+    
+   background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;   
+    
+}
+
+.divedad1, .divedad2 {
+    
+   background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+   
+    
+}
+
+.divimg1, .divimg2 {
+   
+    width: 100%;
+   height: 300px;
+ 
+    
+}
+
+.divimg1 img, .divimg2 img {
+    
+   
+    width: 100%;
+    height: 100%;
+    
+}
+
+.ptag1,
+.ptag3,
+.ptag2,
+.ptag4 {
+    font-size: 50pt;
+    font-family: 'Lovers Quarrel', cursive;
+    text-align: center;
+    font-weight: bolder;
+}
+
+p {
+    margin: 0;
+}
+
+
+button {
+    
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+     background-color: rgba(255, 0, 0, 0.3);
+   
+    
+}
+
+#button{
+    
+     display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+
+
+
+
+
+
