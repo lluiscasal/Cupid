@@ -1,14 +1,4 @@
-header,footer {
-    width: 100%;
-    height: 300px;
-    text-align: center;
-}
 
-h1 {
-    font-family: 'Lovers Quarrel', cursive;
-    font-weight: bolder;
-    font-size: 150pt;
-}
 
 body {
     width: 100%;
@@ -44,7 +34,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     margin: 20px;
-    background-color: rgba(255, 0, 0, 0.3);
+    background-color: rgba(255, 20, 147, 0.7);
     border-radius: 10px;
     padding: 30px;
   
@@ -60,6 +50,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+   
 }
 
 .divitemcenter1 {
@@ -77,16 +68,17 @@ body {
 
 .pbutton {
     
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Lovers Quarrel', cursive;
     text-align: center;
     font-weight: bolder;
+    color:antiquewhite;
     
 }
 
 .pcttag{
     
-   font-size: 40pt;
+   font-size: 30pt;
     font-family: 'Lovers Quarrel', cursive;
     text-align: center;
     font-weight: bolder;
@@ -113,14 +105,14 @@ body {
 
 .divnombre1, .divnombre2 {
     
-   background-color: rgba(255, 255, 255, 0.5);
+   background-color: rgba(255, 255, 255, 0.65);
     border-radius: 10px;   
     
 }
 
 .divedad1, .divedad2 {
     
-   background-color: rgba(255, 255, 255, 0.5);
+   background-color: rgba(255, 255, 255, 0.65);
     border-radius: 10px;
    
     
@@ -146,8 +138,7 @@ body {
 .ptag3,
 .ptag2,
 .ptag4 {
-    font-size: 50pt;
-    font-family: 'Lovers Quarrel', cursive;
+    font-size: 20pt;
     text-align: center;
     font-weight: bolder;
 }
@@ -162,7 +153,7 @@ button {
     width: 200px;
     height: 60px;
     border-radius: 10px;
-     background-color: rgba(255, 0, 0, 0.3);
+     background-color: rgba(255, 20, 147, 0.7);
    
     
 }
